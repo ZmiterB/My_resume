@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My CV</title>
+    <meta name="keywords" content="CV, HTML first steps, resume">
+    <meta name="description" content="My CV - practising HTML+CSS">
+    <link rel="stylesheet" href="my_CV_style.css">
+</head>
+<body>
+    
+    <div class="container">
+    <div class="info">
+    <img src="my_avatar.jpg"  alt="my_avatar" class="avatar">
+
+    <div class="info-text">
+    <h1>Дмитрий Быков</h1>
+    <p>В настоящее время я возглавляю <strong>отдел безопасности</strong> в компании <strong> ООО "Хёндэ АвтоГрад"</strong>, являющейся официальным дистрибьютером марки Hyundai в Республике Беларусь.</p>
+    <p>Веду активный образ жизни, катаюсь на велосипеде, люблю путешествовать, а недавно <em>решил изучать программирование</em></p>
+<h2>Список моих соцсетей</h2>
+<p>Так как соцсети я не использую, тут будут просто находиться ссылки, наличие которых необходимо для выполнения задания:</p>
+<a href="https://vk.com/" target="_blank">VK</a>|
+<a href="https://www.facebook.com/" target="_blank">Facebook</a>|
+<a href="https://www.instagram.com/" target="_blank">Instagram</a>
+</div>
+</div>
+
+
+<div class="card-1">
+<h2>Список моих хобби</h2>
+    <ul class="list">
+        <li>Велосипед</li>
+        <li>Рыбалка</li>
+        <li>Путешествия</li>
+        <li>Приготовление еды</li>
+    </ul>
+</div>
+
+<div class="card-2">
+    <h2>Опыт работы</h2>
+    <table class="table"> 
+        <!-- <thead> 
+            <th>Название</th>
+            <th>Должность</th>
+            <th>Года</th>
+        </thead>-->
+        <tbody>
+         <tr>
+             <td>Учеба в Академии</td>
+             <td>Курсант</td>
+             <td>2000-2004</td>
+         </tr> 
+         <tr>
+             <td>Служба в ОВД</td>
+             <td>Офицер</td>
+             <td>2004-2020</td>
+         </tr> 
+         <tr>
+             <td>ООО Хёндэ АвтоГрад</td>
+             <td>Начальник ОБ</td>
+             <td>2020-настоящее время</td>
+         </tr> 
+        </tbody>
+    </table>
+</div>
+
+<div class="card-3">
+<h2>Образование</h2>
+<table class="table">
+    <!-- <thead> 
+        <th>Учебное заведение</th>
+        <th>Года учёбы</th>
+              
+    </thead>-->
+
+    <tbody>
+        <tr>
+            <td>С/ш № 64</td>
+            <td>1989-2000</td>
+        </tr>
+
+        <tr>
+            <td>Академия МВД</td>
+            <td>2000-2004</td>
+        </tr>
+
+        <tr>
+            <td>МГЛУ</td>
+            <td>2011-2012</td>
+        </tr>
+    </tbody>
+</table>
+</div>
+
+<div class="card-4">
+    <h2>Мои шаги во front-end</h2>
+
+    <ol class="list2">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Javascrypt</li>
+        <li>TBD </li>
+    </ol>
+</div> 
+
+
+
+    <form action="/" class="form">
+
+        <h2>Связаться со мной</h2>
+        
+        <div class="form-row">
+
+        <div class="form-group">
+        <label for="text">Ваше имя:</label>
+        <input type="text" id="text" placeholder="Введите имя">
+        </div>
+
+      
+        <div class="form-group">
+        <label for="email">Ваш email:</label>
+        <input type="email" id="email" placeholder="Введите email">
+        </div>
+
+</div>
+     
+<div class="form-group">
+        <label for="message">Ваше сообщение:</label>
+        <textarea name="" id="message" cols="30" rows="10" placeholder="Введите сообщение..."></textarea>
+    </div>
+       
+        <button class="btn" type="submit">Отправить!</button>
+
+    </form>
+
+</div>
+
+</body>
+</html>

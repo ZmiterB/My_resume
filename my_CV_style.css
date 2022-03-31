@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    background: #f1f1f1;
+    color: #0f141e;
+}
+
+.container{
+    margin: auto;
+    max-width: 800px;
+    padding-top: 30px;
+}
+
+.avatar {
+    width: 350px;
+    border-radius: 28px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, .25); 
+}
+
+
+.info {
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.info-text {
+    margin-left: 40px;
+}
+
+.info-text p {
+    font-style: italic;
+    font-weight: bold;
+    color: #86898f;
+    margin: 0;
+}
+
+.info-text h4 {
+    margin-bottom: 10px;
+}
+
+strong {
+    text-decoration: underline;
+}
+
+.card h2 {
+margin-bottom: 10px;
+}
+
+
+@media (max-width: 800px) {
+    .info {
+        display: block;
+        text-align: center;
+    }
+}
+
+.card-1 {
+    border: 1px solid rgb(216, 210, 210);
+    border-radius: 20px;
+    background-color: rgb(245, 238, 230);
+    margin-bottom: 20px;
+    padding: 15px 20px;
+}
+
+.card-2 {
+    border: 0.5px solid lightgrey;
+    border-radius: 20px;
+    background-color: rgb(231, 241, 223);
+    margin-bottom: 20px;
+    padding: 15px 20px;
+}
+
+.card-3 {
+    border: 0.5px solid lightgrey;
+    border-radius: 20px;
+    background-color: rgb(223, 239, 241); 
+    padding: 15px 20px; 
+    margin-bottom: 20px;
+}
+
+.card-4 {
+    border: 0.5px solid lightgrey;
+    border-radius: 20px;
+    background-color: rgb(248, 246, 225);
+    padding: 15px 20px;
+    margin-bottom: 20px;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: blue;
+}
+
+a:visited {
+    color: grey;
+}
+
+.btn {
+    background: #111;
+    color: #fff;
+    border: none;
+    padding: 15px 20px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.list2 {
+    padding: 0px 20px;
+    }
+
+.list2 li {
+    color: #86898f;
+    margin-bottom: 10px;
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+}
+
+.list li {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+}
+.table {
+    width: 100%;
+}
+
+.table td {
+    padding-bottom: 10px;
+}
+
+.table td:nth-child(2),
+.table td:nth-child(3) {
+    color: #86898f;
+}
+
+.form h2 {
+    text-align: center;
+}
+
+.form-row {
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.form-row .form-group {
+/*display: inline-block;*/
+margin-right: 20px;
+/*width: calc(50% - 20px);   Чтобы поместилось в оду строчку*/
+width: 50%;
+}
+
+.form-row .form-group:last-child {
+margin-right: 0;
+}
+
+
+@media (max-width: 700px) {
+    .form-row {
+        display: block;
+    }
+
+    .form-row .form-group {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+
+.form-group label {
+display: block;
+font-size: 14px;
+color: #86898f;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    padding: 15px 0 10px;
+    outline: none;   /*Выделение активного поля*/
+    font-family: inherit;
+}
